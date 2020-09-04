@@ -1,0 +1,43 @@
+.tab {
+    max-width: 700px;
+
+    &-panel {
+        display: flex;
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    &-item {
+        padding: 15px;
+        border-right: 1px solid rgba(0, 0, 0, .15);
+        cursor: pointer;
+        font-size: 18px;
+
+        &:last-child {
+            border-right: none;
+        }
+
+        &:hover:not(.tab-item__active) {
+            background-color: rgba(0, 0, 0, .05);
+        }
+
+        &__active {
+            background-color: $primary;
+            color: #fff;
+        }
+    }
+
+    &-content {
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: 0px 0px 4px 4px;
+        border-top: none;
+        display: none;
+        padding: 15px;
+        line-height: 23px;
+
+        &__active {
+            display: block;
+        }
+    }
+}

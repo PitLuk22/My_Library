@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library</title>
+    <link rel="icon" href="https://sitename.ru/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- <div>hello</div>
+        <button data-click='' class="btn btn-outline-primary">Click me</button>
+        <button class="btn btn-warning">Click me</button>
+        <button class="btn btn-danger">Click me</button>
+        <button class="btn btn-dark">Click me</button>
+        <button class="btn btn-success">Click me</button> -->
+
+        <!-- Dropdown menu -->
+
+        <div class="dropdown">
+            <button class="btn btn-primary mt-20 dropdown-toggle" id='dropdownBtnMenu'>Dropdown button</button>
+            <div class="dropdown-menu" data-toggle-id='dropdownBtnMenu'>
+                <a href="#" class="dropdown-item">Link #1</a>
+                <a href="#" class="dropdown-item">Link #2</a>
+                <a href="#" class="dropdown-item">Link #3</a>
+            </div>
+        </div>
+
+        <!-- Cards -->
+
+        <div class="goods d-flex f-space-around">
+            <div class="card">
+                <img class='card-img'
+                    src="https://www.clickorlando.com/resizer/JnAjB-UOTefQBtn2C-bxmru2G4U=/1280x720/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/arc-anglerfish-arc2-prod-gmg.s3.amazonaws.com/public/72OJBQJ5MZDXZFEOGR7TKHO5UM.jpg"
+                    alt="#">
+                <div class="card-body">
+                    <div class="card-title">Card title #1</div>
+                    <div class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi accusamus,
+                        rem natus voluptatum nam iusto modi ratione!</div>
+                    <a href='#' class="btn btn-primary" data-toggle='modal' data-target='myModal'>More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class='card-img'
+                    src='https://media.inquirer.com/storage/inquirer/projects/year-in-pictures-2019/photos/POY2019_RedC.JPG'
+                    alt=" #">
+                <div class="card-body">
+                    <div class="card-title">Card title #2</div>
+                    <div class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi accusamus,
+                        rem natus voluptatum nam iusto modi ratione!</div>
+                    <a href='#' id='trigger' class="btn btn-primary" data-toggle='modal' data-target='myModal2'>More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+
+        <!-- <div class="modal" id='myModal2'>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button class="close" data-close>&times;</button>
+                    <div class="modal-header">
+                        Some modal title #2
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt excepturi odit velit veniam ipsam
+                        blanditiis, provident dolores. Modi porro quibusdam fugiat enim fugit. Veniam, molestiae
+                        corporis consectetur magni fugit molestias?
+                    </div>
+                    <div class="modal-footer">
+                        <a href='#' class="btn btn-danger" data-close>Close</a>
+                        <a href='#' class="btn btn-success">Save changes</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="modal" id='myModal'>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button class="close" data-close>&times;</button>
+                    <div class="modal-header">
+                        Some modal title #1
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt excepturi odit velit veniam ipsam
+                        blanditiis, provident dolores. Modi porro quibusdam fugiat enim fugit. Veniam, molestiae
+                        corporis consectetur magni fugit molestias?
+                        Molestias voluptas provident repellendus. Autem, sequi neque a impedit accusantium qui tempora
+                        sunt. Quod, velit porro? Nesciunt, magnam. Quos maxime, provident necessitatibus expedita ipsa a
+                        tempora quidem debitis aliquam ab!
+                        Accusantium modi sunt nesciunt nemo animi quaerat quibusdam ad eum, porro nostrum obcaecati,
+                        saepe reiciendis mollitia delectus recusandae similique quia! Ullam similique fugiat vero aut
+                        qui sed dolore molestias quia.
+                        Sint quidem harum aspernatur adipisci dicta commodi odio. Atque saepe error quas pariatur?
+                        Dolores nihil quia dolor esse at, ad laboriosam consequatur harum accusantium eaque,
+                        exercitationem, ipsa perferendis totam sit.
+                        Quasi ab itaque atque blanditiis voluptatum, tempore eius impedit cumque consequatur, modi sint
+                        assumenda accusamus minus reprehenderit maiores est quae rem, perspiciatis fuga porro.
+                        Cupiditate nobis adipisci voluptates hic vitae.
+                        Quisquam fuga error temporibus in corrupti. Culpa magnam modi quasi iure porro. Mollitia,
+                        numquam ipsa nihil fugit laudantium optio ducimus ipsam accusantium, iste inventore
+                        consequuntur, ullam labore! Sit, temporibus expedita.
+                        Numquam consectetur quis facere deleniti omnis similique, magni a iure cumque soluta facilis
+                        totam doloribus voluptate quidem voluptatum, sapiente sint et voluptatem inventore, vero
+                        explicabo impedit? Cupiditate alias harum vero?
+                        Dignissimos quos cum molestias repellendus commodi sint officia, libero culpa optio non tenetur
+                        nisi fugiat molestiae, modi ullam facilis. Similique consequatur qui hic dolorum inventore
+                        exercitationem ea modi, quae illo!
+                        Tempora blanditiis delectus quaerat vero necessitatibus laborum iure ipsam veniam, quibusdam sit
+                        deserunt corporis nostrum vel natus, quas iusto? Perferendis rem hic expedita iste repellat
+                        suscipit animi laboriosam commodi est?
+                        Illo, iste eius placeat eligendi dolorem asperiores explicabo blanditiis sint? Dolores
+                        architecto culpa iste deleniti debitis magnam autem ratione? Facere odit totam consequatur ex
+                        dicta eaque sint sunt praesentium magnam.
+
+                    </div>
+                    <div class="modal-footer">
+                        <a href='#' class="btn btn-danger" data-close>Close</a>
+                        <a href='#' class="btn btn-success">Save changes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabs -->
+
+        <div class="tab block-center mt-20">
+            <div class="tab-panel" data-tabpanel>
+                <div class="tab-item tab-item__active">Content 1</div>
+                <div class="tab-item">Content 2</div>
+                <div class="tab-item">Content 3</div>
+            </div>
+            <div class="tab-content tab-content__active">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sunt, optio quam ex mollitia accusantium
+                consequatur molestias odio voluptatum veniam nulla praesentium, aperiam fuga atque enim assumenda
+                deleniti? Esse, deleniti?
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores nulla ex quisquam consequatur ab
+                laborum, error aliquid iste, a quia nobis minus? Temporibus consequuntur exercitationem minus! Harum,
+                dignissimos nesciunt.
+                <br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, numquam cumque. Consectetur odit sed
+                deleniti, iusto vero esse harum ab et earum pariatur dolores consequuntur, quia voluptatem obcaecati
+                aspernatur sapiente.
+            </div>
+            <div class="tab-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores nulla ex quisquam consequatur ab
+                laborum, error aliquid iste, a quia nobis minus? Temporibus consequuntur exercitationem minus! Harum,
+                dignissimos nesciunt.
+                <br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, numquam cumque. Consectetur odit sed
+                deleniti, iusto vero esse harum ab et earum pariatur dolores consequuntur, quia voluptatem obcaecati
+                aspernatur sapiente.
+            </div>
+            <div class="tab-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam magni, enim, obcaecati exercitationem
+                quaerat quas nobis nemo non voluptatem ullam minus eveniet fugit dignissimos quo architecto consequuntur
+                nihil ex modi.
+            </div>
+        </div>
+
+        <!-- Accordion -->
+
+        <div class="accordion mt-20 block-center" data-accordion>
+            <div class="accordion-head">
+                <span>First element</span>
+            </div>
+            <div class="accordion-content">
+                <div class="accordion-inner">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam quaerat sequi
+                    dignissimos exercitationem voluptates, illo necessitatibus officiis repudiandae voluptatibus totam,
+                    impedit id odio aliquid aliquam quos tempora dolores corporis.
+                </div>
+            </div>
+            <div class="accordion-head">
+                <span>Second element</span>
+            </div>
+            <div class="accordion-content">
+                <div class="accordion-inner">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam quaerat sequi
+                    dignissimos exercitationem voluptates, illo necessitatibus officiis repudiandae voluptatibus totam,
+                    impedit id odio aliquid aliquam quos tempora dolores corporis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam quaerat sequi
+                    dignissimos exercitationem voluptates, illo necessitatibus officiis repudiandae voluptatibus totam,
+                    impedit id odio aliquid aliquam quos tempora dolores corporis.
+                </div>
+            </div>
+            <div class="accordion-head">
+                <span>Third element</span>
+            </div>
+            <div class="accordion-content">
+                <div class="accordion-inner">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam quaerat sequi
+                    dignissimos exercitationem voluptates, illo necessitatibus officiis repudiandae voluptatibus totam,
+                    impedit id odio aliquid aliquam quos tempora dolores corporis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam quaerat sequi
+                    dignissimos exercitationem voluptates, illo necessitatibus officiis repudiandae voluptatibus totam,
+                    impedit id odio aliquid aliquam quos tempora dolores corporis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laboriosam quaerat sequi
+                    dignissimos exercitationem voluptates, illo necessitatibus officiis repudiandae voluptatibus totam,
+                    impedit id odio aliquid aliquam quos tempora dolores corporis.
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel -->
+
+        <div class="carousel mt-20">
+            <ul class="carousel-indicators">
+
+            </ul>
+            <!-- This block has overflow: hidden; -->
+            <div class="carousel-inner">
+                <!-- This block has width equal all slides width -->
+                <div class="carousel-slides">
+
+                    <div class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2020/08/25/11/11/zebra-5516455__480.jpg" alt="photo">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2020/08/31/00/06/boat-5531001__480.jpg" alt="photo">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2019/10/26/20/21/woman-4580283__480.jpg" alt="photo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2020/08/31/06/33/mountains-5531584__480.jpg"
+                            alt="photo">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2020/01/31/07/10/billboards-4807268__480.jpg"
+                            alt="photo">
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="carousel-prev" data-slide='prev'>
+                <span class="carousel-prev-item">&lt;</span>
+            </a>
+            <a href="#" class="carousel-next" data-slide='next'>
+                <span class="carousel-next-item">&gt;</span>
+            </a>
+        </div>
+
+
+
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>
